@@ -4,7 +4,7 @@ class JoshElement extends HTMLElement{
     }
 }
 
-customElements.define("x-josh/, JoshElement");
+customElements.define("x-josh", JoshElement);
 
 class CenterElement extends HTMLElement{
     connectedCallback(){
@@ -13,7 +13,7 @@ class CenterElement extends HTMLElement{
     }
 }
 
-customElements.define("x-center/, CenterElement");
+customElements.define("x-center", CenterElement);
 
 class YearElement extends HTMLElement{
     connectedCallback(){
@@ -21,7 +21,7 @@ class YearElement extends HTMLElement{
     }
 }
 
-customElements.define("x-fullyear/, YearElement");
+customElements.define("x-fullyear", YearElement);
 
 class TurquoiseElement extends HTMLElement{
     connectedCallback(){
@@ -30,4 +30,4 @@ class TurquoiseElement extends HTMLElement{
     }
 }
 
-customElements.define("x-turquoise/, TurquoiseElement");
+customElements.define("x-turquoise", TurquoiseElement);
