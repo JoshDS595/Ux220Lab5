@@ -8,8 +8,8 @@ customElements.define("x-josh/, JoshElement");
 
 class CenterElement extends HTMLElement{
     connectedCallback(){
-        this.innerHTML = `<div style="text-align:center>${this.innerHTML}</div>
-        `
+        this.innerHTML = 
+        `<div style="text-align:center>${this.innerHTML}</div>`;
     }
 }
 
