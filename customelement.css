@@ -3,5 +3,6 @@ x-center{
 }
 
 x-center:defined{
-    visibility:visbile
+    visibility:visbile;
+    color: turquoise;
 }
