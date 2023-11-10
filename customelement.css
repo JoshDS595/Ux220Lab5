@@ -2,7 +2,6 @@ x-center{
     visibility:hidden;
 }
 
-x-center:defined{
-    visibility:visibile;
-    color: turquoise;
+x-center {
+    visibility:visible;
 }
